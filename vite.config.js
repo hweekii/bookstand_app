@@ -4,10 +4,10 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/bookstand_app/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
-  },
-  base: '/bookstand_app/'
+  }
 })
