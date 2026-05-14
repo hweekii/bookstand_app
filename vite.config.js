@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/bookstand_app/',
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),
+      '@': path.resolve(__dirname, '/src'),
     },
   }
 })
